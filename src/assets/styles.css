@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+    width: 0; /* 隐藏滚动条 */
+    height: 0; /* 隐藏滚动条 */
+  }
