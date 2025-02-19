@@ -1,7 +1,7 @@
 <template>
     <div id="home">
         <section class="hero">
-            <h1 class="header">Code Generate</h1>
+            <h1 class="header">NO WORK</h1>
             <h1>稳定 灵活 快速的Mybatis插件</h1>
         </section>
 
@@ -68,15 +68,21 @@
             </div>
         </section>
 
+        <section class="foot-bar">
+            <div class="foot-bar-left">
+                <div class="foot-bar-left-item">
+                    <a href="https://github.com/imi4u36d/code-generate.git" target="_blank">
+                        <img src="https://img.shields.io/github/stars/imi4u36d/code-generate?style=social" alt=""></img>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <Footer />
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-    name: 'HomeView',
-});
+<script lang="ts" setup>
+import Footer from '@/components/Footer.vue';
 </script>
 
 <style scoped>

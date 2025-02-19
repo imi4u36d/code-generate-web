@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar">
-        <div class="logo">My Portal</div>
+        <div class="logo">NO WORK</div>
         <ul class="nav-links">
-            <li><router-link to="/">首页</router-link></li>
+            <li><router-link to="/" disabled>首页</router-link></li>
             <li><router-link to="/docs">文档</router-link></li>
             <li><router-link to="/contact">相关连接</router-link></li>
             <li><router-link to="/version">版本</router-link></li>
@@ -10,12 +10,7 @@
     </nav>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-    name: 'Navbar',
-});
+<script lang="ts" setup>
 </script>
 
 <style scoped>
@@ -28,6 +23,7 @@ export default defineComponent({
     position: fixed;
     width: 100%;
     z-index: 1000;
+    border-bottom: 1px solid #ccc;
 }
 
 .logo {
