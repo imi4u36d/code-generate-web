@@ -4,8 +4,8 @@
         <ul class="nav-links">
             <li><router-link to="/" disabled>首页</router-link></li>
             <li><router-link to="/docs">文档</router-link></li>
-            <li><router-link to="/contact">相关连接</router-link></li>
-            <li><router-link to="/version">版本</router-link></li>
+            <li><router-link to="/contact">版本更新</router-link></li>
+            <li><router-link to="/version">留言</router-link></li>
         </ul>
     </nav>
 </template>

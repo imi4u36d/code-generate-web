@@ -39,10 +39,10 @@
             <div class="tab-item">
                 <div class="tab-header-item-title">
                     <div class="tab-header-item-title-text">
-                        <span>⚡️快速</span>
+                        <span>🔥活跃</span>
                     </div>
                     <div class="tab-header-item-title-desc">
-                        高效的代码逻辑，闪电般的生成速度
+                        快速迭代，特性快速支持
                     </div>
                 </div>
             </div>
