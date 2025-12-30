@@ -1,0 +1,1 @@
+put -r /Users/wangzhuo/TRAEProject/code-generate-web/dist/* /var/www/html
