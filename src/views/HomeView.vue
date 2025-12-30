@@ -6,7 +6,7 @@
                 <h1 class="hero-main-title gradient-text">NO WORK</h1>
                 <h2 class="hero-subtitle">稳定 灵活 快速的Maven代码生成插件</h2>
                 <p class="hero-description">
-                    45KB超小体积，自动化生成基于数据库表的Java代码，包括Controller、Service、ServiceImpl、Entity、DTO、Mapper和XML文件</p>
+                    不到100KB超小体积，自动化生成基于数据库表的Java代码，包括Controller、Service、ServiceImpl、Entity、DTO、Mapper和XML文件</p>
                 <div class="hero-cta">
                     <a href="https://github.com/imi4u36d/code-generate.git" target="_blank" class="primary-button">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
