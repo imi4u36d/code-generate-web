@@ -234,31 +234,36 @@ mvn code-generate:code-generate
 自动生成完整的代码结构，包括以下文件
 
 \`\`\`
-your_table_name
-└── src
-    └── main
-        ├── java
-        │   └── com
-        │       └── yourcompany
-        │           ├── controller
-        │           │   └── YourTableNameController.java
-        │           ├── domain
-        │           │   └── YourTableNameEntity.java
-        │           ├── dto
-        │           │   ├── YourTableNameDto.java
-        │           ├── res
-        │           │   ├── BaseResponseDto.java
-        │           │   └── Result.java
-        │           ├── mapper
-        │           │   ├── YourTableNameMapper.java
-        │           │   └── YourTableNameMapper.xml
-        │           └── service
-        │               ├── YourTableNameService.java
-        │               └── impl
-        │                   └── YourTableNameServiceImpl.java
-        └── resources
-            └── mapper
-                └── YourTableNameMapper.xml
+output-directory
+├── src
+│   └── main
+│       └── java
+│           └── com
+│               └── yourcompany
+│                   └── res
+│                       ├── BaseResponseDto.java
+│                       └── Result.java
+└── your_table_name
+    └── src
+        └── main
+            ├── java
+            │   └── com
+            │       └── yourcompany
+            │           ├── controller
+            │           │   └── YourTableNameController.java
+            │           ├── domain
+            │           │   └── YourTableNameEntity.java
+            │           ├── dto
+            │           │   └── YourTableNameDto.java
+            │           ├── mapper
+            │           │   └── YourTableNameMapper.java
+            │           └── service
+            │               ├── YourTableNameService.java
+            │               └── impl
+            │                   └── YourTableNameServiceImpl.java
+            └── resources
+                └── mapper
+                    └── YourTableNameMapper.xml
 \`\`\`
 
 ## 4. 核心代码示例
