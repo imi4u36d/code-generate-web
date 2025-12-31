@@ -246,6 +246,7 @@ your_table_name
         │           │   └── YourTableNameEntity.java
         │           ├── dto
         │           │   ├── YourTableNameDto.java
+        │           ├── res
         │           │   ├── BaseResponseDto.java
         │           │   └── Result.java
         │           ├── mapper
@@ -267,11 +268,11 @@ your_table_name
 \`\`\`java
 package com.yourcompany.controller;
 
-import com.yourcompany.dto.BaseResponseDto;
 import com.yourcompany.dto.YourTableNameDto;
+import com.yourcompany.res.BaseResponseDto;
+import com.yourcompany.res.Result;
 import com.yourcompany.service.YourTableNameService;
 import org.springframework.web.bind.annotation.*;
-import com.miaomiao.miaomiaoservice.utils.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiOperation;
